@@ -2032,6 +2032,8 @@ MEAL_RECEPIES = frozendict({
 })
 
 # meal_id: [(count, ingredient_id)...]
+# NOTE: `ingredient_id` and `count` is reversed from the Text-based data above,
+#       for easier implementation in other functions.
 MEAL_RECEPIES_IDX = frozendict({
     0: [(1, 1), (1, 4)],
     1: [(1, 18), (1, 7)],
